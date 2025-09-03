@@ -9,6 +9,9 @@ package PaticosInterface;
  * @author Estudiantes
  */
 public interface FlyBehavior {
+<<<<<<< HEAD
     public void NoFly();
+=======
+>>>>>>> master
     public void fly();
 }

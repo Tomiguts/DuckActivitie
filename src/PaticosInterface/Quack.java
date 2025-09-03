@@ -6,15 +6,11 @@ package PaticosInterface;
 
 /**
  *
- * @author Estudiantes
+ * @author Tomas
  */
-public class FlyWithWings implements FlyBehavior{
-<<<<<<< HEAD
-    
-=======
+public class Quack implements QuackBehavior{
     @Override
-    public void fly(){
-        System.out.println("esta volandooo");
+    public void quack(){
+        System.out.println("esta quakeando");
     };
->>>>>>> master
-};
+}

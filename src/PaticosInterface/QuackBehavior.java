@@ -10,6 +10,9 @@ package PaticosInterface;
  */
 public interface QuackBehavior {
     public void quack();
+<<<<<<< HEAD
     public void Squeak();
     public void MuteQuack();
+=======
+>>>>>>> master
 }

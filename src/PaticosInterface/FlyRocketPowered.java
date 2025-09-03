@@ -6,15 +6,11 @@ package PaticosInterface;
 
 /**
  *
- * @author Estudiantes
+ * @author Tomas
  */
-public class FlyWithWings implements FlyBehavior{
-<<<<<<< HEAD
-    
-=======
+public class FlyRocketPowered implements FlyBehavior {
     @Override
     public void fly(){
-        System.out.println("esta volandooo");
+        System.out.println("esta volando a velocidades super sonicas");
     };
->>>>>>> master
-};
+}

@@ -4,10 +4,41 @@
  */
 package TipoDePato;
 
+<<<<<<< HEAD
+=======
+import paticos.Paticos;
+import PaticosInterface.FlyBehavior;
+import PaticosInterface.QuackBehavior;
+import PaticosInterface.FlyNoWay;
+import PaticosInterface.Squeak;
+
+>>>>>>> master
 /**
  *
  * @author Estudiantes
  */
+<<<<<<< HEAD
 public class RubberDuck {
     
+=======
+public class RubberDuck extends Paticos {
+    public RubberDuck() {
+        super();
+        flyBehavior = new FlyNoWay();
+        quackBehavior = new Squeak();
+    }
+    
+    @Override
+    public void display() {
+        System.out.println("i'm a Rubber Duck.");
+    }
+    
+    public void FlyWithWings(){
+        flyBehavior.fly();
+    }
+    
+    public void Quack (){
+        quackBehavior.quack();    
+    }
+>>>>>>> master
 }
